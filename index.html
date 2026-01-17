@@ -3,8 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Embassy Document Attestation Services</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gulf Embassy Document Attestation Services for UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain.">
+
+  <!-- Mobile & Facebook In-App Browser Fix -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <!-- SEO -->
+  <meta name="description" content="Gulf Embassy Document Attestation Services for UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain. Trusted & Secure.">
+
+  <!-- Facebook Preview -->
+  <meta property="og:title" content="Gulf Embassy Document Attestation Services">
+  <meta property="og:description" content="Trusted document attestation for all Gulf countries. Chat on WhatsApp for details.">
+  <meta property="og:type" content="website">
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -50,10 +62,11 @@
     .cta a {
       background: #16a34a;
       color: #fff;
-      padding: 12px 25px;
+      padding: 14px 28px;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 6px;
       font-weight: bold;
+      display: inline-block;
     }
     footer {
       background: #e5e7eb;
@@ -68,19 +81,20 @@
       position: fixed;
       bottom: 20px;
       right: 20px;
-      z-index: 100;
+      z-index: 999;
     }
     .whatsapp-float a {
       background: #25D366;
       color: #fff;
-      padding: 15px 20px;
+      padding: 15px 22px;
       border-radius: 50px;
       font-size: 16px;
       text-decoration: none;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
   </style>
 </head>
+
 <body>
 
 <header>
@@ -101,8 +115,8 @@
   <p>
     We are a professional service provider specializing in
     <strong>Embassy Document Attestation</strong> for Gulf countries.
-    Our focus is on providing reliable, transparent, and secure
-    document attestation support for individuals and organizations.
+    We ensure a transparent, secure, and reliable attestation process
+    for individuals and organizations.
   </p>
 </section>
 
@@ -120,13 +134,13 @@
 <section id="privacy">
   <h2>Privacy Policy</h2>
   <p>
-    We respect your privacy and ensure that all personal information
-    and documents shared with us are handled with strict confidentiality.
+    We respect your privacy. All documents and personal information
+    shared with us are handled with strict confidentiality.
   </p>
   <ul>
-    <li>Only necessary information is collected for attestation purposes</li>
-    <li>Documents are shared only with authorized government or embassy authorities</li>
-    <li>We do not sell or misuse customer data</li>
+    <li>Information is collected only for attestation purposes</li>
+    <li>Documents are shared only with authorized authorities</li>
+    <li>Customer data is never sold or misused</li>
   </ul>
   <p><strong>Last Updated:</strong> 2026</p>
 </section>
@@ -134,32 +148,39 @@
 <section id="terms">
   <h2>Terms & Conditions</h2>
   <ul>
-    <li>All documents submitted must be genuine and accurate</li>
-    <li>Processing time depends on embassy and government authorities</li>
-    <li>Service fees are non-refundable once processing has started</li>
-    <li>Final attestation decisions are made by respective authorities</li>
+    <li>All documents submitted must be genuine</li>
+    <li>Processing time depends on embassy authorities</li>
+    <li>Fees are non-refundable once processing starts</li>
+    <li>Final decisions are made by respective embassies</li>
   </ul>
-  <p>
-    We are not responsible for delays or changes in rules by embassies
-    or government departments.
-  </p>
   <p><strong>Last Updated:</strong> 2026</p>
 </section>
 
 <section id="contact" class="cta">
   <h2>Contact Us</h2>
   <p>For reliable and secure document attestation services.</p>
-  <a href="https://wa.me/917011641599" target="_blank">Chat with us on WhatsApp</a>
+  <a href="https://wa.me/917011641599" target="_blank" rel="noopener noreferrer">
+    Chat with us on WhatsApp
+  </a>
 </section>
 
 <!-- Floating WhatsApp Button -->
 <div class="whatsapp-float">
-  <a href="https://wa.me/917011641599" target="_blank">WhatsApp</a>
+  <a href="https://wa.me/917011641599" target="_blank" rel="noopener noreferrer">
+    WhatsApp
+  </a>
 </div>
 
 <footer>
   © 2026 Embassy Document Attestation Services. All Rights Reserved.
 </footer>
+
+<!-- Facebook In-App Browser Detection -->
+<script>
+  if (navigator.userAgent.includes("FBAN") || navigator.userAgent.includes("FBAV")) {
+    console.log("Facebook in-app browser detected");
+  }
+</script>
 
 </body>
 </html>
